@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+.showAdd{
+  display: flex;
+  position: relative;
+  top: 70px;
+  z-index: 2;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.Accardion-debts{
+  margin-top: 20px !important;
+  width: 800px;
+  margin: 0 auto;
+  height: 80%;
+}
+
+.select-mr{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body{
+  background-image: url(https://picstatio.com/large/8b9a3a/Dodge-Challenger-red-muscle-car.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  background-size: 100%;
+}
+.accardion-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.total{
+  margin-left: 20px;
+  margin: 0 auto;
+  font-size: 18px;
+  display: inline-block;
+  background-color: white;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.category{
+  display: flex;
+ 
+  background-color: white;
+  align-items: center;
+  color: black;
+  padding: 10px;
+}
+
+
+
+.Accardion-debts-1{
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 300px;
+  margin-top: 20px !important;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.form-2{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 350px;
+}
+
+.form-2 input{
+  padding: 10px 20px;
+  border: 4px solid rgb(13, 208, 42);
+  outline: none;
+  color: white;
+  font-weight: 800;
+  background: transparent;
+}
+
+.form-2 input::placeholder{
+  color: rgb(37, 13, 190);
+  font-weight: 700;
+}

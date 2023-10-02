@@ -1,0 +1,21 @@
+.nav-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: rgb(129, 196, 129);
+    padding: 100px;
+    border-radius: 15px;
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    cursor: pointer !important;
+    font-size: 18px !important;
+    border: 1px solid rgb(56, 49, 187) !important;
+    border-radius: 5px;
+    padding: 4px 8px !important;
+}
